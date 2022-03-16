@@ -228,9 +228,6 @@ img {
   background-color: var(--team-section-color);
   border-radius: 4px;
 }
-.advantages-icon-box:not(:last-child) {
-  margin-right: 30px;
-}
 
 .section {
   padding-top: 94px;

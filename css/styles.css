@@ -518,47 +518,33 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-image-list:hover .overlay-portfolio {
+.container-img-overlay{
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-image-link:hover .overlay-portfolio,
+.portfolio-image-link:focus .overlay-portfolio {
   transform: translateY(0);
-  opacity: 1;
+  overflow:visible;
 }
 .overlay-portfolio {
-  position: absolute;
-  display: flex;
-  align-items: center;
+  position: absolute; 
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
-  opacity: 0;
+  transform: translateY(100%);  
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-overlay {
-  padding-left: auto;
-  padding-top: auto;
-  padding-right: auto;
-  padding-bottom: auto;
-
-  /* text-align: center;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.15;
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 1); */
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
+  padding-left:  24px;
+  padding-top: 63px;  
+  font-size: 18px;  
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0.03em;
-  text-align: center;
+  letter-spacing: 0.03em;    
   color: rgba(255, 255, 255, 1);
 }
 

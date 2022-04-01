@@ -16,6 +16,7 @@
   --first-card-shadow: rgba(0, 0, 0, 0.12);
   --second-card-shadow: rgba(0, 0, 0, 0.14);
   --third-card-shadow: rgba(0, 0, 0, 0.2);
+  --main-cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*==============STUDIO PAGE==============*/
 /* text and list properties */
@@ -95,6 +96,7 @@ img {
 .text-navigation {
   color: var(--secondary-text-color);
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 
 .text-navigation:hover,
@@ -142,6 +144,7 @@ img {
   color: var(--primary-text-color);
   text-decoration: none;
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .contacts-link:focus,
 .contacts-link:hover {
@@ -211,6 +214,7 @@ img {
   cursor: pointer;
   border-radius: 4px;
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 
 .button:hover {
@@ -338,6 +342,7 @@ img {
 .social-list-icon {
   fill: var(--social-icon-color);
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 
 .social-list-item:not(:last-child) {
@@ -351,6 +356,7 @@ img {
   height: 44px;
   border-radius: 50%;
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .social-list-link:focus,
 .social-list-link:hover {
@@ -376,6 +382,7 @@ img {
   height: 60px;
   fill: var(--social-icon-color);
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .clients-link {
   width: 100%;
@@ -386,6 +393,7 @@ img {
   border: 1px solid var(--social-icon-color);
   border-radius: 4px;
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -413,6 +421,7 @@ img {
   color: var(--primary-page-color);
   text-decoration: none;
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .footer-contacts {
   color: var(--footer-contacts-color);
@@ -456,6 +465,7 @@ img {
 }
 .social-list-icon{
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .footer-social-container .social-list-icon {
   fill: var(--primary-page-color);
@@ -487,6 +497,7 @@ img {
   border-radius: 4px;
   border: transparent;
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .portfolio-button-item:not(:last-child) {
   margin-right: 8px;
@@ -525,6 +536,7 @@ img {
   display: block;
   text-decoration: none;
   transition-duration: 250ms;
+  transition-timing-function: var(--main-cubic-bezier);
 }
 .portfolio-image-link:hover,
 .portfolio-image-link:focus {

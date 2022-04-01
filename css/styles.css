@@ -94,6 +94,7 @@ img {
 }
 .text-navigation {
   color: var(--secondary-text-color);
+  transition-duration: 250ms;
 }
 
 .text-navigation:hover,
@@ -140,6 +141,7 @@ img {
   font-family: inherit;
   color: var(--primary-text-color);
   text-decoration: none;
+  transition-duration: 250ms;
 }
 .contacts-link:focus,
 .contacts-link:hover {
@@ -208,6 +210,7 @@ img {
   background: var(--accent-page-color);
   cursor: pointer;
   border-radius: 4px;
+  transition-duration: 250ms;
 }
 
 .button:hover {
@@ -334,6 +337,7 @@ img {
 }
 .social-list-icon {
   fill: var(--social-icon-color);
+  transition-duration: 250ms;
 }
 
 .social-list-item:not(:last-child) {
@@ -346,6 +350,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition-duration: 250ms;
 }
 .social-list-link:focus,
 .social-list-link:hover {
@@ -370,6 +375,7 @@ img {
   width: 106px;
   height: 60px;
   fill: var(--social-icon-color);
+  transition-duration: 250ms;
 }
 .clients-link {
   width: 100%;
@@ -379,6 +385,7 @@ img {
   justify-content: center;
   border: 1px solid var(--social-icon-color);
   border-radius: 4px;
+  transition-duration: 250ms;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -405,6 +412,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-page-color);
   text-decoration: none;
+  transition-duration: 250ms;
 }
 .footer-contacts {
   color: var(--footer-contacts-color);
@@ -446,6 +454,9 @@ img {
 .footer-social-container .secondary-tittle {
   color: var(--primary-page-color);
 }
+.social-list-icon{
+  transition-duration: 250ms;
+}
 .footer-social-container .social-list-icon {
   fill: var(--primary-page-color);
 }
@@ -475,6 +486,7 @@ img {
   cursor: pointer;
   border-radius: 4px;
   border: transparent;
+  transition-duration: 250ms;
 }
 .portfolio-button-item:not(:last-child) {
   margin-right: 8px;
@@ -512,6 +524,7 @@ img {
   position: relative;
   display: block;
   text-decoration: none;
+  transition-duration: 250ms;
 }
 .portfolio-image-link:hover,
 .portfolio-image-link:focus {

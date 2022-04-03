@@ -216,10 +216,50 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--main-cubic-bezier);
 }
+.backdrop-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms var(--main-cubic-bezier), visibility 250ms var(--main-cubic-bezier);
+
+}
+
+.backdrop-modal.is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 580px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
 
 .button:hover {
   color: var(--primary-page-color);
   background: var(--background-button-color);
+}
+.modal-btn-close{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--primary-page-color);  
+  border: 1px solid rgba(0, 0, 0, 0.1);
+ cursor: pointer;
 }
 
 /*==============COMPANY ADVANTAGES/WORK EXAMPLES SECTION==============*/
